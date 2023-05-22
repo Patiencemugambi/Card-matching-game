@@ -71,13 +71,13 @@ function shuffleCards(){
    
 
 
-//    cards.forEach((card) => {
-//        const randomIndex = Math.floor(Math.random() * cards.length);
+   cards.forEach((card) => {
+       const randomIndex = Math.floor(Math.random() * cards.Size);
 
-//        console.log("=============",randomIndex)
-//        const randomCard = cards[randomIndex];
-//        cardContainer.appendChild(randomCard)
-//    });
+       console.log("=============",randomIndex)
+       const randomCard = cards[randomIndex];
+       cardContainer.appendChild(randomCard)
+   });
 }
 //call function shuffleCards when you refresh/open the page
 window.onload = function () {
