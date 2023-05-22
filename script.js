@@ -92,3 +92,6 @@ function updateMoveCount(){
    const moveCountElement = document.getElementById("move-count");
    moveCountElement.textContent = moveCount;
 }
+
+
+
