@@ -68,11 +68,16 @@ function shuffleCards(){
    const cards = Array.from(document.querySelectorAll(".hiding"));
    const cardContainer = cards[0].parentNode // the parent container of cards
    //shuffle cards
-   cards.forEach((card) => {
-       const randomIndex = Math.floor(Math.random() * cards.length);
-       const randomCard = cards[randomIndex];
-       cardContainer.appendChild(randomCard)
-   });
+   
+
+
+//    cards.forEach((card) => {
+//        const randomIndex = Math.floor(Math.random() * cards.length);
+
+//        console.log("=============",randomIndex)
+//        const randomCard = cards[randomIndex];
+//        cardContainer.appendChild(randomCard)
+//    });
 }
 //call function shuffleCards when you refresh/open the page
 window.onload = function () {
