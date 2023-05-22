@@ -2,6 +2,10 @@
 *{
     margin: 0%;
 }
+body{
+    background-image: linear-gradient(to right, #7d141d, #ff1e27 );
+
+}
 
 #title{
     text-align: center;
@@ -24,11 +28,12 @@
     height: 300px;
     display: grid;
     gap: 10px;
-    /* background-color: aquamarine; */
+    background-color: rgb(190, 59, 59);
     padding: 10px;
     grid-template-columns: auto auto auto auto;
     width: 80%;
     margin-left: 10%;
+
 }
 @media (max-width: 768px){
     .card-container{
