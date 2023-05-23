@@ -61,6 +61,10 @@ function checkMatch(){
   }  
   moveCount++;
   updateMoveCount();
+
+  timecount++
+  updateTimeCount();
+
 }
 //Shuffling the Cards
 function shuffleCards(){
@@ -92,6 +96,15 @@ function updateMoveCount(){
    const moveCountElement = document.getElementById("move-count");
    moveCountElement.textContent = moveCount;
 }
+//Display time
+let timeCount = 0;
+
+//update the move count
+// function updateTimeCount(){
+//     const timeCountElement = document.getElementById("time-count");
+//     timeCountElement.textContent = timeCount;
+//  }
+
 
 
 
