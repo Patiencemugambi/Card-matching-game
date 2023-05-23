@@ -97,7 +97,25 @@ function updateMoveCount(){
    moveCountElement.textContent = moveCount;
 }
 //Display time
-let timeCount = 0;
+let startTime;
+
+function startTime(){
+startTime = Date.now();
+time = setInterval(updateTimer, 1000);
+}
+
+// function updateTimer() {
+// var currentTime = Date.now();
+// var timeElapsed = Math.floor((currentTime - startTime) / 1000);
+// var minutes = Math.floor(timeElapsed / 60);
+// var seconds = timeElapsed % 60;
+
+// var timerDisplay = document.getElementById('timer');
+// timerDisplay.textContent =
+//   minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
+// }
+
+
 
 //update the move count
 // function updateTimeCount(){
