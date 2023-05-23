@@ -99,10 +99,10 @@ function updateMoveCount(){
 //Display time
 let startTime;
 
-function startTime(){
-startTime = Date.now();
-time = setInterval(updateTimer, 1000);
-}
+// function startTime(){
+// startTime = Date.now();
+// time = setInterval(updateTimer, 1000);
+// }
 
 // function updateTimer() {
 // var currentTime = Date.now();
