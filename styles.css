@@ -108,7 +108,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #7d141d, #ff1e27 );
-    color: aqua;
+    color: rgb(10, 9, 9);
     font-size: 4em;
     font-weight: 700;
     /* margin-top: 70%; */
@@ -118,7 +118,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #7d141d, #ff1e27 );
-    color: aqua;
+    color: rgb(7, 7, 6);
     font-size: 4em;
     font-weight: 700
  }
@@ -127,9 +127,18 @@ display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #7d141d, #ff1e27 );
-    color: aqua;
+    color: rgb(14, 9, 8);
     font-size: 4em;
     font-weight: 700
  }
  
- 
+ button{
+    display: flex;
+    margin-left: 48%;
+    background-image: linear-gradient(to right, #7d141d, #ff1e27 );
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 30px;
+ }
